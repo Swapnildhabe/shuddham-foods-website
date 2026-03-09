@@ -87,8 +87,7 @@ export function ContactSection() {
                 Get instant answers to your partnership queries. Chat with us directly on WhatsApp.
               </p>
              <Button
-                onClick={() => window.open( "https://wa.me/917276536111?text=Hello%20Shuddham%20Foods%2C%20I%20want%20to%20know%20more%20about%20your%20FMCG%20distribution%20services%20in%20Beed.",
-    "_blank")}
+                onClick={() => window.open( "https://wa.me/917276536111?text=Hello%20Shuddham%20Foods%2C%20I%20want%20to%20know%20more%20about%20your%20FMCG%20distribution%20services%20in%20Beed.","_blank")}
                 className="flex items-center gap-2 bg-white hover:bg-gray-100 text-[#128C7E]"
               >
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" className="h-6 w-6" alt="WhatsApp" />
@@ -98,7 +97,7 @@ export function ContactSection() {
 
             <div className="rounded-xl overflow-hidden shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1760662052295-f84068499a03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZWxpdmVyeSUyMHRydWNrJTIwbG9naXN0aWNzfGVufDF8fHx8MTc3Mjg1NjczOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src=" https://images.jdmagicbox.com/quickquotes/images_main/tata-ace-mini-truck-body-2219825240-skbzfds8.jpg"
                 alt="Delivery logistics"
                 className="w-full h-64 object-cover"
               />

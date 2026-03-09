@@ -10,7 +10,7 @@ export function HeroSection() {
   };
 
   return (
-    <section id="home" className="relative bg-gradient-to-br from-[#D32F2F] to-[#B71C1C] pt-32 pb-20 overflow-hidden">
+    <section id="home" className="relative bg-gradient-to-br from-[#D32F2F] to-[#B71C1C] pt-28 md:pt-32 pb-20 overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 right-20 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -21,13 +21,12 @@ export function HeroSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left side content */}
           <div className="text-white">
-           <h1
-              className="mt-10 md:mt-0 text-4xl sm:text-5xl md:text-6xl mb-6 leading-tight"
+            <h1
+              className="text-5xl md:text-6xl mb-6 leading-tight"
               style={{ fontFamily: 'Poppins, sans-serif' }}
             >
               Reliable FMCG Distribution in Beed City
             </h1>
-
             <p
               className="text-xl mb-8 text-white/90 leading-relaxed"
               style={{ fontFamily: 'Inter, sans-serif' }}

@@ -1,5 +1,5 @@
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
-import whatsappLogo from '../../../public/whatsapp.svg';
+
 import { Button } from './ui/button';
 
 export function ContactSection() {
@@ -80,7 +80,7 @@ export function ContactSection() {
           {/* WhatsApp CTA & Image */}
           <div className="space-y-6">
             <div className="bg-gradient-to-br from-[#25D366] to-[#128C7E] rounded-xl p-8 text-white shadow-lg">
-             <img src={whatsappLogo} className="h-7 w-7" alt="WhatsApp" />
+             <img src="/whatsapp.svg" className="h-7 w-7" alt="WhatsApp" />
               <h3 className="text-2xl mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
                 Quick Response on WhatsApp
               </h3>
@@ -91,7 +91,7 @@ export function ContactSection() {
                 onClick={() => window.open('https://wa.me/917276536111', '_blank')}
                 className="bg-white hover:bg-gray-100 text-[#128C7E]"
               >
-                <img src={whatsappLogo} className="h-6 w-6" alt="WhatsApp" />
+                <img src="/whatsapp.svg" className="h-6 w-6" alt="WhatsApp" />
                 Chat on WhatsApp
               </Button>
             </div>

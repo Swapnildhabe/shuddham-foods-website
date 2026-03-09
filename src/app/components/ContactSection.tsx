@@ -1,5 +1,5 @@
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
-import whatsappLogo from '../../assets/whatsapp.svg';
+import whatsappLogo from '../../../public/whatsapp.svg';
 import { Button } from './ui/button';
 
 export function ContactSection() {

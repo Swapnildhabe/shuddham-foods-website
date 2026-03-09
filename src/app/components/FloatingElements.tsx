@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { MessageCircle, ArrowUp } from 'lucide-react';
-import whatsappLogo from '../../assets/whatsapp.svg';
+import whatsappLogo from '../../../public/whatsapp.svg';
 import { Button } from './ui/button';
 
 export function FloatingElements() {

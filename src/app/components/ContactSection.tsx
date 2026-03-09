@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 
 import { Button } from './ui/button';
 

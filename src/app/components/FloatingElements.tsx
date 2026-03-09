@@ -21,14 +21,13 @@ export function FloatingElements() {
     <>
       {/* WhatsApp Floating Button */}
             <a
-          href="https://wa.me/917276536111"
+          href="https://wa.me/917276536111?text=Hello%20Shuddham%20Foods%2C%20I%20want%20to%20know%20more%20about%20your%20FMCG%20distribution%20services%20in%20Beed."
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#128C7E] text-white p-4 rounded-full shadow-2xl transition-all duration-300 hover:scale-110 group"
           aria-label="Chat on WhatsApp"
         >
           <img src="/whatsapp.svg" className="h-7 w-7" alt="WhatsApp" />
-
           <span className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-3 py-1.5 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
             Chat on WhatsApp
           </span>

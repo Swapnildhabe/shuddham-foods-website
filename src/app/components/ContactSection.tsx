@@ -1,5 +1,4 @@
 import { Phone, Mail, MapPin } from 'lucide-react';
-
 import { Button } from './ui/button';
 
 export function ContactSection() {
@@ -16,7 +15,6 @@ export function ContactSection() {
             Ready to expand your brand in Beed market? Contact us to discuss partnership opportunities.
           </p>
         </div>
-
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* Contact Information */}
           <div className="space-y-8">
@@ -80,6 +78,7 @@ export function ContactSection() {
           {/* WhatsApp CTA & Image */}
           <div className="space-y-6">
             <div className="bg-gradient-to-br from-[#25D366] to-[#128C7E] rounded-xl p-8 text-white shadow-lg">
+            
              <img src="/whatsapp.svg" className="h-7 w-7" alt="WhatsApp" />
               <h3 className="text-2xl mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
                 Quick Response on WhatsApp
@@ -87,13 +86,14 @@ export function ContactSection() {
               <p className="mb-6 text-white/90" style={{ fontFamily: 'Inter, sans-serif' }}>
                 Get instant answers to your partnership queries. Chat with us directly on WhatsApp.
               </p>
-              <Button
-                onClick={() => window.open('https://wa.me/917276536111', '_blank')}
-                className="bg-white hover:bg-gray-100 text-[#128C7E]"
+             <Button
+                onClick={() => window.open( "https://wa.me/917276536111?text=Hello%20Shuddham%20Foods%2C%20I%20want%20to%20know%20more%20about%20your%20FMCG%20distribution%20services%20in%20Beed.",
+    "_blank")}
+                className="flex items-center gap-2 bg-white hover:bg-gray-100 text-[#128C7E]"
               >
                 <img src="/whatsapp.svg" className="h-6 w-6" alt="WhatsApp" />
                 Chat on WhatsApp
-              </Button>
+            </Button>
             </div>
 
             <div className="rounded-xl overflow-hidden shadow-lg">

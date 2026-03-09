@@ -21,12 +21,13 @@ export function HeroSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left side content */}
           <div className="text-white">
-            <h1
-              className="text-5xl md:text-6xl mb-6 leading-tight"
+           <h1
+              className="mt-10 md:mt-0 text-4xl sm:text-5xl md:text-6xl mb-6 leading-tight"
               style={{ fontFamily: 'Poppins, sans-serif' }}
             >
               Reliable FMCG Distribution in Beed City
             </h1>
+
             <p
               className="text-xl mb-8 text-white/90 leading-relaxed"
               style={{ fontFamily: 'Inter, sans-serif' }}

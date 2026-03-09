@@ -79,7 +79,7 @@ export function ContactSection() {
           <div className="space-y-6">
             <div className="bg-gradient-to-br from-[#25D366] to-[#128C7E] rounded-xl p-8 text-white shadow-lg">
             
-             <img src="/whatsapp.svg" className="h-7 w-7" alt="WhatsApp" />
+             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" className="h-7 w-7" alt="WhatsApp" />
               <h3 className="text-2xl mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
                 Quick Response on WhatsApp
               </h3>
@@ -91,7 +91,7 @@ export function ContactSection() {
     "_blank")}
                 className="flex items-center gap-2 bg-white hover:bg-gray-100 text-[#128C7E]"
               >
-                <img src="/whatsapp.svg" className="h-6 w-6" alt="WhatsApp" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" className="h-6 w-6" alt="WhatsApp" />
                 Chat on WhatsApp
             </Button>
             </div>

@@ -27,7 +27,7 @@ export function FloatingElements() {
           className="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#128C7E] text-white p-4 rounded-full shadow-2xl transition-all duration-300 hover:scale-110 group"
           aria-label="Chat on WhatsApp"
         >
-          <img src="/whatsapp.svg" className="h-7 w-7" alt="WhatsApp" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" className="h-7 w-7" alt="WhatsApp" />
           <span className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-3 py-1.5 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
             Chat on WhatsApp
           </span>
